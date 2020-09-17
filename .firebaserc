@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cover-ccaf2": {
+      "hosting": {
+        "mpua": [
+          "cover-ccaf2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cover-ccaf2"
+  }
+}

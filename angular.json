@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "src/custom-theme.scss",
               "src/styles.css"
             ],
             "scripts": []
@@ -117,8 +118,16 @@
               "devServerTarget": "mpua:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "mpua"
+    }
+  },
+  "defaultProject": "mpua",
+  "cli": {
+    "analytics": "e7858549-6301-4ab5-a18a-e36368afbf91"
+  }
 }

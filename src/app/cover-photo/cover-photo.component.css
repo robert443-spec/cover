@@ -1,0 +1,28 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  
+  }
+  .img-responsive{
+    background-image: url('src/app/cover-photo/hiyoo.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   backface-visibility: hidden;
+
+  }
+  .kiki{
+    flex: 11 auto;
+  }
+  .tool{
+    color: darkgray;
+    
+    position: fixed;
+  }
+  .juju{
+   background-color:white;
+  }
